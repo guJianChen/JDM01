@@ -1,0 +1,197 @@
+.jd_content {
+  width: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  height: 1000px;
+  margin: 0 auto;
+}
+.header {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  height: 40px;
+  background-color: pink;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+.header .search {
+  position: relative;
+}
+.header .search input {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 15px;
+  text-indent: 3em;
+}
+.header .search .search-logo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  background-position: -60px -109px;
+}
+.header .logo {
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  width: 56px;
+  height: 20px;
+  background-position: 0 -109px;
+}
+.header .login {
+  position: absolute;
+  line-height: 40px;
+  width: 50px;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+.header .login a {
+  color: white;
+}
+.jd_banner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.jd_banner ul {
+  width: 1000%;
+  transform: translateX(-10%);
+}
+.jd_banner ul li {
+  float: left;
+  width: 10%;
+}
+.jd_banner ul li a {
+  display: block;
+}
+.jd_banner ul li a img {
+  width: 100%;
+  display: block;
+}
+.jd_banner ol {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%);
+}
+.jd_banner ol li {
+  width: 10px;
+  height: 10px;
+  float: left;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.jd_banner ol li.current {
+  background: #fff;
+}
+.jd_nav ul li {
+  padding: 10px 0;
+  width: 20%;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+}
+.jd_nav ul li a img {
+  width: 60%;
+}
+.jd_nav ul li p {
+  color: #ccc;
+  line-height: 30px;
+}
+.jd_news {
+  overflow: hidden;
+  height: 30px;
+  padding-left: 85px;
+  padding-right: 40px;
+  position: relative;
+}
+.jd_news .logo {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.jd_news .logo img {
+  width: 73px;
+  height: 16px;
+}
+.jd_news .info {
+  width: 100%;
+}
+.jd_news .info ul li {
+  line-height: 30px;
+}
+.jd_news .more {
+  line-height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+.jd_seckill .sec_title {
+  line-height: 30px;
+}
+.jd_seckill .sec_title .clock {
+  width: 20px;
+  height: 22px;
+  margin: 3px 5px 5px 5px;
+  background-position: -83px -109px;
+}
+.jd_seckill .sec_title .title {
+  color: red;
+  margin-right: 10px;
+}
+.jd_seckill .sec_title .time span:nth-child(odd) {
+  border-radius: 5px;
+  line-height: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  width: 20px;
+  color: white;
+  background-color: #000;
+}
+.jd_seckill .sec_content {
+  overflow: auto;
+}
+.jd_seckill .sec_content ul {
+  width: 780px;
+}
+.jd_seckill .sec_content ul li {
+  float: left;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+.jd_seckill .sec_content ul li a {
+  display: block;
+}
+.jd_seckill .sec_content ul li a img {
+  width: 60px;
+  margin: 6px;
+}
+.jd_seckill .sec_content ul li p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 700;
+  color: red;
+  text-decoration: line-through;
+}
+.jd_seckill .sec_content ul li:last-child {
+  border-right: none;
+}
+.jd_major img {
+  float: left;
+  display: block;
+  width: 33.33%;
+}
+.jd_product ul li a img {
+  display: block;
+  float: left;
+  width: 50%;
+}
+.jd_product ul li:first-child img {
+  width: 33.33%;
+}

@@ -1,0 +1,88 @@
+/* css reset */
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p,
+dl,
+dt,
+dd,
+a,
+img,
+button,
+form,
+table,
+th,
+tr,
+td,
+tbody,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-size: 14px;
+  color: #333;
+  font-family: Microsoft YaHei, Arial, sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #333;
+}
+input {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+em,
+i {
+  font-style: normal;
+}
+/* css common */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+  line-height: 0;
+  visibility: hidden;
+  height: 0;
+}
+.sprit-bg {
+  background-image: url(../image/jd-sprites.png);
+  background-size: 200px 200px;
+}
