@@ -1,0 +1,66 @@
+body,
+html {
+  height: 100%;
+}
+.jd_layout {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-top: 44px;
+}
+.jd_header .search {
+  overflow: hidden;
+  height: 100%;
+}
+.jd_header .search input {
+  margin-top: 7px;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  text-indent: 2em;
+}
+.cate_content {
+  width: 100%;
+  height: 100%;
+}
+.cate_content .c_left {
+  overflow: hidden;
+  float: left;
+  width: 90px;
+  height: 100%;
+}
+.cate_content .c_left ul {
+  width: 100%;
+}
+.cate_content .c_left ul li {
+  background-color: #fff;
+  width: 100%;
+  height: 45px;
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+  line-height: 44px;
+  text-align: center;
+}
+.cate_content .c_left ul li.current {
+  color: red;
+  border-right: none;
+}
+.cate_content .c_right {
+  overflow: hidden;
+  height: 100%;
+  padding: 5px;
+}
+.cate_content .c_right .in_right .banner img {
+  width: 100%;
+}
+.cate_content .c_right .in_right .menu_box ul li {
+  width: 33.33%;
+  text-align: center;
+  float: left;
+}
+.cate_content .c_right .in_right .menu_box ul li img {
+  width: 75%;
+}
